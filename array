@@ -1,0 +1,5 @@
+var myArray ['Apple, 'Pears"];
+
+console.log(myArray);
+
+console.log(myArray.length);

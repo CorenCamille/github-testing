@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chessboard with Flexbox</title>
+<style>
+    #chessboard {
+      display: flex; 
+      width: 1200px;
+      height: 1200px;  
+      background-color: black;
+    }
+    .square {
+        width: 200px;
+        height: 200px;
+
+    }
+    .orange {
+    
+    background-color: orange; 
+    }
+
+    .dark {
+        
+        background-color: orangered; 
+    }
+</style>
+<script type="text/javascript">
+function hideOrShowButton() {
+    var chessboard = document.getElementByID('chessboard')
+    var chessbButton= document.getElementByID('chessButton')
+    console.log(chessboard.style.display);
+    
+    if(chessboard.style.display == 'none'){
+         chessboard.style.display = 'block';
+         chessboard.style.display = 'none';
+         chessButton.value = 'Show Board';
+    }
+}  
+function hideOrShowWarning() {
+    console.log('warning');
+    var warning = document.getElementsByClassName('bg-warning');
+    for ( var i = 0; i < warnings.length ; i++ ) {
+        console.log(i);
+      //   warnings[i].style.display = 'none';
+    }
+}
+function hideOrShowDanger() {
+    console.log('danger');
+}
+    
+}
+</script>
+    </head>
+<body>
+    <input type="button" id ="chessButton" value="Hide/Show Board" onclick="hideOrShowButton()" />
+    <input type="button" id ="warningButton" value="Hide warning squares" onclick="hideOrShowWarning()" />
+    <input type="button" id ="dangerButton" value="Hide danger squares" onclick="hideOrShowDanger()" />
+    <div id="chessboard" class="container bg-dark">
+        <div id="row">
+        <div class="col-2 bg-warning"></div>
+        <div class="col-2 bg-danger"></div>
+        <div class="col-2 bg-warning"></div>
+        <div class="col-2 bg-danger"></div>
+        <div class="col-2 bg-warning"></div>
+        <div class="col-2 bg-danger"></div>
+    </div>
+</body>
+</html>

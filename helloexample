@@ -1,0 +1,188 @@
+Last login: Fri Jun  5 18:50:00 on ttys000
+camille@GLXC02YM0F4L410 ~ % pwd
+/Users/camille
+camille@GLXC02YM0F4L410 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+camille@GLXC02YM0F4L410 ~ % mkdir projects
+mkdir: projects: File exists
+camille@GLXC02YM0F4L410 ~ % cd projects
+camille@GLXC02YM0F4L410 projects % ls
+camille@GLXC02YM0F4L410 projects % pwd
+/Users/camille/projects
+camille@GLXC02YM0F4L410 projects % cd ~
+camille@GLXC02YM0F4L410 ~ % cd projects
+camille@GLXC02YM0F4L410 projects % mkdir website
+camille@GLXC02YM0F4L410 projects % cd ~         
+camille@GLXC02YM0F4L410 ~ % cd projects/website
+camille@GLXC02YM0F4L410 website % touch index.html
+camille@GLXC02YM0F4L410 website % ls
+index.html
+camille@GLXC02YM0F4L410 website % cd //
+camille@GLXC02YM0F4L410 / %  pwd
+/
+camille@GLXC02YM0F4L410 / % ls   
+Applications	cores		sbin
+Library		dev		tmp
+System		etc		usr
+Users		home		var
+Volumes		opt
+bin		private
+camille@GLXC02YM0F4L410 / % cd projects/website
+cd: no such file or directory: projects/website
+camille@GLXC02YM0F4L410 / % cd ~
+camille@GLXC02YM0F4L410 ~ % cd projects/website
+camille@GLXC02YM0F4L410 website % touch index.html
+camille@GLXC02YM0F4L410 website % ls
+index.html
+camille@GLXC02YM0F4L410 website % cd ..
+camille@GLXC02YM0F4L410 projects % pwd
+/Users/camille/projects
+camille@GLXC02YM0F4L410 projects % mkdir tic_tac_toe
+camille@GLXC02YM0F4L410 projects % cd tic_tac_toe
+camille@GLXC02YM0F4L410 tic_tac_toe % pwd 
+/Users/camille/projects/tic_tac_toe
+camille@GLXC02YM0F4L410 tic_tac_toe % touch tic_tac_toe.py
+camille@GLXC02YM0F4L410 tic_tac_toe % ls
+tic_tac_toe.py
+camille@GLXC02YM0F4L410 tic_tac_toe % cd ..
+camille@GLXC02YM0F4L410 projects % ls
+tic_tac_toe	website
+camille@GLXC02YM0F4L410 projects % mkdir hello
+camille@GLXC02YM0F4L410 projects % cd hello
+camille@GLXC02YM0F4L410 hello % touch hello.py
+camille@GLXC02YM0F4L410 hello % mv hello.py hello.js
+camille@GLXC02YM0F4L410 hello % atom hello.js
+zsh: command not found: atom
+camille@GLXC02YM0F4L410 hello % atom hello.js
+zsh: command not found: atom
+camille@GLXC02YM0F4L410 hello % nano hello.js
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6      File: hello.js         Modified  
+
+console.log('Hello, world!');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get He^O WriteO^R Read F^Y Prev P^K Cut Te^C Cur Pos
+^X Exit  ^J Justif^W Where ^V Next P^U UnCut ^T To Spel
